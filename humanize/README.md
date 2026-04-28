@@ -24,8 +24,8 @@ No Python. No external packages. No API key beyond Claude Code itself.
 
 ```bash
 # 1. Clone the skills library
-git clone [repo-url]
-cd [repo-name]/humanize
+git clone https://github.com/ranga-sampath/claude-content-skills
+cd claude-content-skills/humanize
 
 # 2. Copy to ~/.claude/skills/ — Claude Code discovers skills from this global directory,
 #    making the skill available in every session regardless of working directory.
@@ -78,7 +78,6 @@ humanize/
 │   ├── sample-llm-draft.md         # Sample input: blog post with seeded LLM fingerprints
 │   ├── sample-humanized-draft.md   # Reference output: the humanized version
 │   └── sample-humanize-report.md   # Reference output: the change report
-├── how-to-humanize-llm-writing.md  # The article this skill is based on
 └── README.md
 ```
 
@@ -88,4 +87,4 @@ humanize/
 
 ## Background
 
-This skill is based on the article **"How to Tell You're Reading an LLM (And How to Fix It)"** — included in this repository as `how-to-humanize-llm-writing.md`. The article documents all 22 patterns with before/after examples. The skill automates the same process.
+This skill is based on the article **"How to Tell You're Reading an LLM (And How to Fix It)"** published at [youplusai.com](https://youplusai.com). The article documents all 22 patterns with before/after examples. The skill automates the same process.

@@ -25,7 +25,6 @@ A collection of Claude Code skills for writing and content work.
     │   ├── sample-llm-draft.md          # Sample input: blog post with seeded LLM fingerprints
     │   ├── sample-humanized-draft.md    # Reference output: the humanized version
     │   └── sample-humanize-report.md    # Reference output: the change report
-    ├── how-to-humanize-llm-writing.md   # The article this skill is based on
     ├── LICENSE
     └── README.md
 ```

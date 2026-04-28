@@ -5,8 +5,8 @@
 ### 1. Clone the skills library
 
 ```bash
-git clone [repo-url]
-cd [repo-name]/humanize
+git clone https://github.com/ranga-sampath/claude-content-skills
+cd claude-content-skills/humanize
 ```
 
 ### 2. Install the skill globally in Claude Code
